@@ -28,8 +28,8 @@ pipeline {
             steps {
                 script {
                     sh '''
-                        chmod +x meow.sh
-                        ./meow.sh
+                        chmod +x bullet.sh
+                        ./bullet.sh
                     '''
                 }
             }
