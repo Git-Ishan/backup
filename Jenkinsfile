@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/psveerr/backup'
+                git branch: 'main', url: 'https://github.com/Git-Ishan/backup.git'
             }
         }
         
